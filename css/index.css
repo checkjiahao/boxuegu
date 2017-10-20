@@ -1,0 +1,38 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.leftpad{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: yellowgreen;
+
+
+}
+.leftpad .logal{
+height: 200px;
+    background-color: orange;
+    overflow: hidden;
+}
+.leftpad .logal .localimg{
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+}
+.rightpad{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    right: 0;
+    background-color: seagreen;
+    min-height: 700px;
+    
+}
+.rightpad .main{
+    height: 300px;
+
+}
